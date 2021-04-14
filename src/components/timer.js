@@ -13,10 +13,10 @@ const DisplayDateTime = () => {
     });
 
     return(
-        <div >
+        <div>
             It's currently
-            <p> Time : {date.toLocaleTimeString()}</p>
-            <p> Date : {date.toLocaleDateString()}</p>
+            <h1> Time : {date.toLocaleTimeString()}</h1>
+            <h1> Date : {date.toLocaleDateString()}</h1>
 
         </div>
     )
